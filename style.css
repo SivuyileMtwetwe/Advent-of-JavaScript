@@ -40,3 +40,106 @@ article {
 #eye:hover svg {
     fill: #333;
 }
+
+/* General styles */
+body {
+    font-family: 'Avenir', sans-serif;
+    margin: 20px;
+  }
+  
+  /* Dropdown container */
+  .custom-dropdown {
+    position: relative;
+    width: 400px;
+  }
+  
+  .dropdown-button {
+    background-color: #F3F3F3;
+    border: 1px solid #DADADA;
+    font-size: 42px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dropdown-button:focus {
+    border-color: #1AAAF2;
+    outline: none;
+    box-shadow: 0 0 5px #1AAAF2;
+  }
+  
+  /* Dropdown menu */
+  .dropdown {
+    position: absolute;
+    background-color: #FFF;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .dropdown.hidden {
+    display: none;
+  }
+  
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 32px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    outline: none;
+  }
+  
+  .search-box:focus {
+    border-bottom-color: #1AAAF2;
+  }
+  
+  .dropdown-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .dropdown-list li {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    gap: 10px;
+  }
+  
+  .dropdown-list li:hover {
+    background-color: #F3F3F3;
+  }
+  
+  /* Thumbnail styles */
+  .thumbnail {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Movie details */
+  .movie-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-title {
+    font-size: 42px;
+    margin: 0;
+  }
+  
+  .movie-year {
+    font-size: 32px;
+    color: #777;
+    margin: 0;
+  }
+  

@@ -22,10 +22,22 @@
     </article>
 
     <!-- Challenge #2 -->
+    <h1>Search for a Movie</h1>
+  <div class="custom-dropdown" id="dropdown-container">
+    <button id="dropdown-button" class="dropdown-button">
+      Select a Movie
+    </button>
+    <div id="dropdown" class="dropdown hidden">
+      <input
+        type="text"
+        id="search-box"
+        class="search-box"
+        placeholder="Search for a movie..."
+      />
+      <ul id="dropdown-list" class="dropdown-list"></ul>
+    </div>
+  </div>
 
-    <select name="movies" id="moviesInput" disabled="disabled">
-      
-    </select>
 
     <script src="/script.js"></script>
   </body>
